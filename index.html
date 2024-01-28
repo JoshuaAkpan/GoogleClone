@@ -4,26 +4,31 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Google</title>
+
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <header>
         <nav>
             <a href="http://gmail.com">Gmail</a>
-            <a href="http://gmail.com">Images</a>
+            <a href="https://www.google.com/imghp?hl=en&ogbl">Images</a>
         </nav>
     </header>
 
     <main>
         <img src="assets/images/googlelogo.png" alt="Google Logo" class="logo">
-        
-        <input type="search" name="search" id="search">
 
-        <div class="buttons">
-            <button>Google Search</button>
-            <button>I'm Feeling Lucky</button>
+        <div class="search-bar">
+            <textarea class="search-input" id="search" maxlength="2048" name="search" rows="1" aria-activedescendant="" aria-autocomplete="both" aria-controls="Alh6id" aria-expanded="true" aria-haspopup="both" aria-owns="Alh6id" autocapitalize="off" autocomplete="off" autocorrect="off" autofocus="" role="combobox" spellcheck="false" title="Search" type="search" value="" aria-label="Search" ></textarea>
         </div>
 
-        <p>Google offered in: 
+        <div class="buttons">
+            <input class="btn1" type="submit" aria-label="Google Search" value="Google Search" role="button">
+            <input class="btn2" type="submit" aria-label="I'm Feeling Lucky" value="I'm Feeling Lucky" role="button">
+
+        </div>
+
+        <p class="google-lang-site-links">Google offered in: 
             <a href="">Hausa</a>
             <a href="">Igbo</a>
             <a href="">Èdè</a>
@@ -36,15 +41,15 @@
         <div class="footer1">Nigeria</div>
 
         <div class="footer2">
-            <div class="footer-links1">
+            <div class="footer-links2">
                 <a href="">About</a>
                 <a href="">Advertising</a>
                 <a href="">Business</a>
                 <a href="">How Search works</a>
             </div>
 
-            <div class="footer-links2">Our third decade of climate action: join us </div>
-
+            <div class="footer-links1"><a href="">Our third decade of climate action: join us </a></div>
+            
             <div class="footer-links3">
                 <a href="">Privacy</a>
                 <a href="">Terms</a>

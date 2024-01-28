@@ -1,0 +1,125 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: arial, sans-serif;
+    color: #202124;
+    box-sizing: border-box;
+}
+
+header{
+    display: flex;
+    justify-content: right;
+    height: 60px;
+    align-items: center;
+    padding: 20px;
+    font-size: 13px;
+}
+
+main{
+    display: flex;
+    align-content: center;
+    flex-direction: column;
+    height: 457px;
+}
+
+.logo, .search-bar, .buttons, .google-lang-site-links {
+    align-self: center;
+
+}
+
+.logo{
+    width: 300px;
+    min-height: 92px;
+    max-height: 100%;
+    max-width: 100%;
+    object-fit: contain;
+    object-position: center bottom;
+    width: auto;
+}
+
+.search-bar{
+    display: flex;
+    width: 584px;
+    height: 45px;
+    border: 1px solid #dfe1e5;
+    border-radius: 30px;
+    margin: 25px 20px 20px 20px;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.search-input{
+    resize: none;
+    border: none;
+    width: 443px;
+    height: 27px;
+    outline: none;
+    background: transparent;
+    font-size: 16px;
+    line-height: 22px;
+}
+
+.btn1, .btn2{
+    background-color: #f8f9fa;
+    border: 1px solid #f8f9fa;
+    border-radius: 4px;
+    color: #3c4043;
+    font-size: 14px;
+    margin: 11px 4px;
+    padding: 0 16px 50px 16px;
+    line-height: 27px;
+    height: 36px;
+    min-width: 54px;
+    cursor: pointer;
+    user-select: none;
+}
+
+.btn1:hover, .btn2:hover{
+    border: 1px solid #dfe1e5;
+}
+.google-lang-site-links{
+    font-size: 13px;   
+}
+
+.google-lang-site-links a{
+    color: #1a0dab;
+    text-decoration: none;
+}
+
+.google-lang-site-links a:hover, .footer2 a:hover{
+    text-decoration: underline;
+}
+
+
+
+footer{
+    background-color: #f2f2f2;
+}
+
+footer a{
+    text-decoration: none;
+}
+
+.footer1{
+    font-size: 15px;
+    padding: 15px 30px;
+    border-bottom: 1px solid #dfe1e5;
+}
+
+.footer2{
+    font-size: 14px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.footer-links1, .footer-links2, .footer2 a{
+    padding: 15px;
+}
+
+.footer-links1{
+    display: flex;
+    justify-content: center;
+}
+
