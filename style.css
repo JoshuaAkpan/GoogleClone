@@ -19,7 +19,7 @@ main{
     display: flex;
     align-content: center;
     flex-direction: column;
-    height: 457px;
+    height: 487px;
 }
 
 .logo, .search-bar, .buttons, .google-lang-site-links {
@@ -110,16 +110,13 @@ footer a{
 .footer2{
     font-size: 14px;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
+    padding-right: 15px;
 }
 
 .footer-links1, .footer-links2, .footer2 a{
     padding: 15px;
 }
 
-.footer-links1{
-    display: flex;
-    justify-content: center;
-}
 
