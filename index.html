@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Google</title>
 
+    <script src="/index.js" defer></script>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
@@ -12,16 +13,28 @@
         <nav>
             <a href="http://gmail.com">Gmail</a>
             <a href="https://www.google.com/imghp?hl=en&ogbl">Images</a>
+            <img class="menu-icon" src="/assets/images/dots-menu.png" alt="menu-icon">
             <a class="user-initial-icon">J</a>
         </nav>
     </header>
 
     <main>
-        <img src="assets/images/googlelogo.png" alt="Google Logo" class="logo">
+        <img src="assets/images/logo_google_icon.png" alt="Google Logo" class="logo">
 
-        <div class="search-bar">
-            <textarea class="search-input" id="search" maxlength="2048" name="search" rows="1" aria-activedescendant="" aria-autocomplete="both" aria-controls="Alh6id" aria-expanded="true" aria-haspopup="both" aria-owns="Alh6id" autocapitalize="off" autocomplete="off" autocorrect="off" autofocus="" role="combobox" spellcheck="false" title="Search" type="search" value="" aria-label="Search" ></textarea>
-        </div>
+        <form id = "request-form" action="https://www.google.com/search?q=" method="GET">
+            <img class="google-search-icon" src="/assets/images/google-search-icon.png" alt="">
+        
+
+            <textarea class="search-input" id="search" maxlength="2048" name="q" rows="1" aria-activedescendant="" aria-autocomplete="both" aria-expanded="true" aria-haspopup="both" autocapitalize="off" autocomplete="off" autocorrect="off" autofocus="" role="combobox" spellcheck="false" title="Search" type="search" aria-label="Search" ></textarea>
+
+            <div class="right-input-icon">
+
+                <img class="google-voice" src="/assets/images/google-voice.png" alt="">
+                <img class="google-lens-icon" src="/assets/images/google-lens-icon.png.png" alt="">
+            </div>
+        
+        </form>
+
 
         <div class="buttons">
             <input class="btn1" type="submit" aria-label="Google Search" value="Google Search" role="button">

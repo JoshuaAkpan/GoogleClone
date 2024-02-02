@@ -24,6 +24,15 @@ nav a:hover:not(:last-child){
     text-decoration: underline;
 }
 
+.menu-icon{
+    position: relative;
+    height: 15px;
+    top: 3px;
+    padding: 0px 20px;
+    cursor: pointer;
+}
+
+
 .user-initial-icon {
     background-color: #455a64;
     color: #f2f2f2;
@@ -37,46 +46,73 @@ main{
     display: flex;
     align-content: center;
     flex-direction: column;
-    height: 487px;
+    height: 77.7vh;
 }
 
-.logo, .search-bar, .buttons, .google-lang-site-links {
+.logo, #request-form, .buttons, .google-lang-site-links {
     align-self: center;
 
 }
 
 .logo{
-    width: 300px;
-    min-height: 92px;
+    width: 280px;
+    height: 150px;
     max-height: 100%;
     max-width: 100%;
-    object-fit: contain;
-    object-position: center bottom;
-    width: auto;
+    object-fit: cover;
+    object-position: center center;
 }
 
-.search-bar{
+#request-form{
     display: flex;
     width: 584px;
-    height: 45px;
+    height: 50px;
     border: 1px solid #dfe1e5;
     border-radius: 30px;
-    margin: 25px 20px 20px 20px;
+    margin: 0px 20px 20px 20px;
     align-items: center;
     justify-content: center;
     
+}
+
+#request-form:hover{
+    box-shadow: 1px 2px 7px 0px #e0e0e0;
 }
 
 .search-input{
     resize: none;
     border: none;
     width: 443px;
-    height: 27px;
     outline: none;
     background: transparent;
     font-size: 16px;
     line-height: 22px;
 }
+
+.google-search-icon{
+    width: 20px;
+    position: relative;
+    left: -10px;
+    opacity: 50%;
+}
+
+.right-input-icon{
+    position: relative;
+    left: 15px;
+}
+
+.google-voice, .google-lens-icon{
+    cursor: pointer;
+}
+.google-voice{
+    position: relative;
+    width: 25px;
+    top: -5px;
+}
+.google-lens-icon{
+    width: 35px;
+}
+
 
 .btn1, .btn2{
     background-color: #f8f9fa;
@@ -137,5 +173,4 @@ footer a{
 .footer-links1, .footer-links2, .footer2 a{
     padding: 15px;
 }
-
 
