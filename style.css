@@ -85,7 +85,7 @@ main{
     color: #3c4043;
     font-size: 14px;
     margin: 11px 4px;
-    padding: 0 16px 50px 16px;
+    padding: 3px 16px 16px 16px;
     line-height: 27px;
     height: 36px;
     min-width: 54px;
@@ -97,6 +97,7 @@ main{
     border: 1px solid #dfe1e5;
 }
 .google-lang-site-links{
+    margin-top: 16px;
     font-size: 13px;   
 }
 
